@@ -13,39 +13,33 @@
     ?>
     <h1>EXERCICE 1</h1>
     <?php
-    for ($i = 1; $i <= 10; $i++) 
-    {
-        echo '<p> le nombre vaut '. $i .'<p>';
-    }
-    ?>
+    for ($i = 1; $i <= 10; $i++) : ?>
+        <p>Le nombre vaut <?= $i ?> <p>
+    <?php endfor ?>
+
     <h1>EXERCICE 2</h1>
     <?php
-      for ($i = 1; $i <= 10; $i++) 
-      {
-        if ($i != 3) 
-        {
-            echo '<p> le nombre vaut '. $i .'<p>';
-        }
-      }
-     
-    ?>
+      for ($i = 1; $i <= 10; $i++) : 
+      
+        if ($i != 3) : ?>
+            <p> le nombre vaut <?= $i ?> <p>
+        <?php endif ?>
+    <?php endfor ?>
+
     <h1>EXERCICE 3</h1>
     <?php
-    for ($i = 1; $i <= 10; $i++) 
-      {
-        if ($i < 4 || $i > 7) 
-        {
-            echo '<p> le nombre vaut '. $i .'<p>';
-        }
-      }
-    ?>
+    for ($i = 1; $i <= 10; $i++) :
+        if ($i < 4 || $i > 7) : ?>
+            <p> le nombre vaut <?= $i ?> <p>
+        <?php endif ?>
+    <?php endfor?>
+
     <h1>EXERCICE 4</h1>
     <?php
         $abs1 = ("-5");
-        $abs2 = ("10");
-        
-        echo '<p>La valeure absolue de '.$abs1.' vaut '. (abs($abs1)) . '<p>';
-        echo '<p>La valeure absolue de '.$abs2.' vaut '. (abs($abs2)) . '<p>';
+        $abs2 = ("10"); 
     ?>
+        <p>La valeure absolue de <?= $abs1 ?> vaut <?= (abs($abs1)) ?> <p>
+        <p>La valeure absolue de <?= $abs1 ?> vaut <?= (abs($abs2)) ?> <p>
 </body>
 </html>
