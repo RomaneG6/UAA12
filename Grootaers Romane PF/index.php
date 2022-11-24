@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base/base.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     echo'<p>Bonjour le monde</p>';
     ?>  
     <form action="">
-        <fieldset>
+        <fieldset class="flexC">
             <legend>Coordonnées</legend>
         <label for="nom">Nom :</label>
             <input type="text" name="nom" id="nom">
@@ -32,7 +33,7 @@
                     <option value="japon">Japon</option>
             </select>       
         </fieldset>
-        <fieldset>
+        <fieldset class="flexC">
             <legend>Périodicité</legend>
             <div>
                 <label for="newsletterhebdo">Newsletter Hebdomadaire</label>
