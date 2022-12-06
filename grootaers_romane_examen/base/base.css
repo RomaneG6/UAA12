@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.menu{
+    background-color: #0D91F5;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    background-color: #899CAB;
+    color: whitesmoke;
+    list-style-type: none;
+    border: #324D61 solid 1px;
+    border-radius: 50%;
+}
+.divP{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #AFC8DB;
+    width: 90%;
+}
+.index{
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-grow: 5;
+}
+.info{
+    display: flex;
+    width: 40%;
+}
+.commande{
+    display: flex;
+    width: 40%;
+}
+label{
+    display: block;
+    font-size: 2em;
+    padding: 5px;
+    text-decoration: underline;
+}
+input{
+    font-size: 1.5em;
+    padding: 20px 0px;
+    border-top:  rgb(56, 55, 55) solid 2px;
+    border-left:  rgb(56, 55, 55) solid 2px;
+    border-right: rgb(118, 118, 118) solid 2px;
+    border-bottom: rgb(118, 118, 118) solid 2px;
+    border-radius: 10px;
+}
+.galerie{
+    width: 120px;
+}
+button{
+    display: flex;
+    background: #324D61;
+    color: whitesmoke;
+    border: #899CAB solid 1px;
+}
+legend{
+    background-color: #324D61;
+    color: whitesmoke;
+    border: #899CAB solid 1px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D91F5;
+
+}
+p{
+    display: block;
+    align-content: center;
+    background-color: #899CAB;
+    color: whitesmoke;
+    border: #324D61 solid 1px;
+    border-radius: 50%;
+}
